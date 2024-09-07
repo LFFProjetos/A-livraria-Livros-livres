@@ -27,16 +27,17 @@ function pesquisar() {
             autor = dado.autor.toLowerCase();
             sinopse = dado.sinopse.toLowerCase();
             genero = dado.genero.toLowerCase();
-            tags = dado.genero.toLowerCase();
+            tags = dado.tags.toLowerCase();
         //se campo incluir campoPesquisa
-        if (titulo.includes(campoPesquisa) || sinopse.includes(campoPesquisa) || genero.includes(campoPesquisa) || autor.includes(campoPesquisa)) {
+        if (titulo.includes(campoPesquisa) || sinopse.includes(campoPesquisa) || genero.includes(campoPesquisa) || autor.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             //Então faça
             // Cria uma nova div para cada livro e adiciona as informações do livro
             resultadoPesquisa +=
                 `
                 <div class="item-resultado">
+                    <img class="imagem" src=${dado.capa} alt="Texto alternativo">
                     <h2>
-                        <a href="#" target="_blank">${dado.titulo}</a>
+                        <a href=${dado.link} target="_blank">${dado.titulo}</a>
                     </h2>
                     <p class="descricao-meta">${dado.sinopse}</p>
                     <p class="descricao-meta"><a href=${dado.link} target="_blank">Acesse aqui</a> a página do skoob deste livro para visualizar mais detalhes do livro</p>
