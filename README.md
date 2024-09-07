@@ -38,18 +38,10 @@ Uma aplicação web simples, desenvolvida em HTML, CSS e JavaScript, que permite
 ### Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou um pull request.
 
-### Licença
-[Insira aqui a licença escolhida para o seu projeto, por exemplo, MIT]
-
 **Observações:**
 
-* **Mais Detalhes:** Adicione mais detalhes sobre a lógica do JavaScript, como a forma como os resultados são filtrados e exibidos.
-* **Diagrama:** Considere incluir um diagrama de fluxo para visualizar melhor o funcionamento da aplicação.
-* **Exemplos:** Mostre exemplos de como a lista de livros em `dados.js` é estruturada.
-* **Screenshots:** Adicione screenshots para ilustrar a interface da aplicação.
+* **Ainda não adicionei o link da Vercel pois precisam validar minha conta mas assim que validarem o link estará aqui:** Aqui você clicará no link da aplicação.
 
-**Exemplo de diagrama de fluxo:**
-[Insira aqui um diagrama de fluxo simples mostrando o fluxo da aplicação, desde a entrada do usuário até a exibição dos resultados.]
 
 **Exemplo de estrutura de `dados.js`:**
 ```javascript
