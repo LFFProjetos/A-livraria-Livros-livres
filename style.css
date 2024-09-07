@@ -12,6 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    background-image: url('backgroundLivros.jpg');
 }
 
 /* Estiliza os títulos h1 */
