@@ -40,7 +40,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou um p
 
 **Observações:**
 
-* **Ainda não adicionei o link da Vercel pois precisam validar minha conta mas assim que validarem o link estará aqui:** Aqui você clicará no link da aplicação.
+* **Link da Vercel:** [Aqui você clicará no link da aplicação.](https://a-livraria-livros-livres.vercel.app/)
 
 
 **Exemplo de estrutura de `dados.js`:**
